@@ -1,0 +1,544 @@
+.box1{
+  
+  position: absolute;
+  width: calc(207vh);
+   /*height: calc(100vh);*/
+    margin-right: 0px;
+    margin-top: 520px;
+    margin-bottom: 0px;
+    min-height:100%;
+    overflow: scroll;
+   
+   
+    
+    background: linear-gradient(
+      rgba(241, 241, 241, 0.6),
+      rgba(255, 253, 253, 0.6)
+    ),
+    url("../img/vangog4.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  }
+
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(123, 136, 160, 0.2),
+        rgba(255, 255, 255, 0.2)
+      ),
+    url("../img/tlo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+  }
+  
+  
+
+  .registerTitle {
+    font-size: 50px;
+    margin-top: 90px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .registerForm {
+    margin-top: -130px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerForm > label {
+    margin: 10px 0;
+    color: transparent;
+  }
+  
+  .registerInput {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(130, 199, 199), rgb(89, 153, 153) -10px 4px 15px, -3px 3px 8px;
+    /*box-shadow: rgb(18, 15, 180);*/
+    border-radius:5px;
+    border: none;
+  }
+  
+  .registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+
+
+
+  
+
+  .button2 {
+    background-color: rgb(7, 128, 128);
+     border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-1deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top:30px;
+    
+    box-shadow: 3px 3px 10px rgb(58, 155, 155), rgb(22, 85, 85) -10px 4px 15px, -3px 3px 10px;
+  }
+  
+  .button2:focus {
+    outline: 0;
+  }
+  
+  .button2:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+  
+  .button2:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    .button2 {
+      padding: .75rem 3rem;
+      font-size: 1.25rem;
+    }
+  }
+
+  .button2:disabled{
+    cursor: not-allowed;
+    background-color:rgb(61, 175, 175); 
+  }
+
+  *{
+    margin:0;
+    padding:0
+  }
+
+
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+  
+  }
+  
+
+  
+
+
+.pulsator {
+position: absolute;
+width: 28px;
+height: 28px;
+margin-top: 99px;
+
+
+margin-left: 285px;
+background:rgba(11, 181, 193, 0.2);
+border-radius: 50%;
+}
+
+.pulsator span{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  opacity: .8;
+  animation: pulseAnimate 8.1s ease-out infinite;
+  animation-delay: calc(1.6s * var(--i));
+ }
+ .a{
+  --i:0;
+ }
+ .b{
+  --i:1;
+ }
+ .c{
+  --i:2;
+ }
+ .d{
+  --i:3;
+ }
+ .e{
+  --i:4;
+ }
+ 
+@keyframes pulseAnimate {
+  100%{
+    opacity: 0;
+    transform: scale(6);
+  }
+  
+}
+
+
+.pulsator1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left:-48px;
+  margin-top: 88px;
+  margin-bottom:130px;
+  background:  rgba(226, 16, 16, 0.3);
+  border-radius: 50%;
+  }
+  
+  .pulsator1 span{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: .8;
+    animation: pulseAnimate1 8s ease-out infinite;
+    animation-delay: calc(1.6s * var(--i));
+   }
+   .a1{
+    --i:0;
+   }
+   .b1{
+    --i:1;
+   }
+   .c1{
+    --i:2;
+   }
+   .d1{
+    --i:3;
+   }
+   .e1{
+    --i:4;
+   }
+  
+  @keyframes pulseAnimate1 {
+    100%{
+      opacity: 0;
+      transform: scale(6.6);
+    }
+    
+  }
+  
+  
+  
+
+
+
+
+  .pulsator2 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    
+    margin-top:100px;
+    background: rgba(226, 212, 11, 0.5);
+    border-radius: 50%;
+     margin-left: 330px;
+    margin-top: 90px;
+    }
+
+  .pulsator2 span{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+   
+    background: inherit;
+    border-radius: inherit;
+    opacity: .6;
+    animation: pulseAnimate2 21s ease-out infinite;
+    animation-delay: calc(3s * var(--i));
+   }
+   .a2{
+    --i:0;
+   }
+   .b2{
+    --i:1;
+   }
+   .c2{
+    --i:2;
+   }
+   .d2{
+    --i:3;
+   }
+   .e2{
+    --i:4;
+   }
+   .f2{
+    --i:3;
+   }
+   .g2{
+    --i:4;
+   }
+  
+  @keyframes pulseAnimate2 {
+    100%{
+      opacity: 0;
+      transform: scale(20);
+    }
+    
+  }
+  
+  .pulsator3 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-left:20px;
+    margin-top: 28px;
+    margin-bottom:130px;
+    background: rgba(139, 10, 190, 0.3);
+    border-radius: 50%;
+    }
+
+  .pulsator3 span{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: .8;
+    animation: pulseAnimate3 10s ease-out infinite;
+    animation-delay: calc(2s * var(--i));
+   }
+   .a3{
+    --i:0;
+   }
+   .b3{
+    --i:1;
+   }
+   .c3{
+    --i:2;
+   }
+   .d3{
+    --i:3;
+   }
+   .e3{
+    --i:4;
+   }
+  
+  @keyframes pulseAnimate3 {
+    100%{
+      opacity: 0;
+      transform: scale(8);
+    }
+    
+  }
+
+
+
+  .pulsator4 {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-left:25px;
+    margin-top:52px;
+    margin-bottom:130px;
+    background: rgba(86, 95, 104, 0.3);
+    border-radius: 50%;
+    }
+
+  .pulsator4 span{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: .8;
+    animation: pulseAnimate4 10s ease-out infinite;
+    animation-delay: calc(1s * var(--i));
+   }
+   .a4{
+    --i:0;
+   }
+   .b4{
+    --i:1;
+   }
+   .c4{
+    --i:2;
+   }
+   .d3{
+    --i:3;
+   }
+   .e4{
+    --i:4;
+   }
+  
+  @keyframes pulseAnimate4 {
+    100%{
+      opacity: 0;
+      transform: scale(5);
+    }
+    
+  }
+  .pulsator55 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-left:146px;
+    margin-top:-120px;
+    background:rgba(21, 191, 69, 0.3);
+    border-radius: 50%;
+    }
+
+  .pulsator55 span{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: .8;
+    animation: pulseAnimate55 10s ease-out infinite;
+    animation-delay: calc(2s * var(--i));
+   }
+   .a55{
+    --i:0;
+   }
+   .b55{
+    --i:1;
+   }
+   .c55{
+    --i:2;
+   }
+   .d55{
+    --i:3;
+   }
+   .e55{
+    --i:4;
+   }
+  
+  @keyframes pulseAnimate55 {
+    100%{
+      opacity: 0;
+      transform: scale(6);
+    }
+    
+  }
+  .pulsator66 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-left:-110px;
+    margin-top: -27px;
+ /* transform: translateX(200px); */
+        /* transform: translateY(300px); */
+    background: rgba(36, 14, 207, 0.3);
+    border-radius: 50%;
+    }
+
+  .pulsator66 span{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: .8;
+    animation: pulseAnimate66 7.5s ease-out infinite;
+    animation-delay: calc(1.5s * var(--i));
+   }
+   .a66{
+    --i:0;
+   }
+   .b66{
+    --i:1;
+   }
+   .c66{
+    --i:2;
+   }
+   .d66{
+    --i:3;
+   }
+   .e66{
+    --i:4;
+   }
+  
+  @keyframes pulseAnimate66 {
+    100%{
+      opacity: 0;
+      transform: scale(8);
+    }
+    
+  }
+  
+  
+  .pulsator7 {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-left:100px;
+    margin-top:80px;
+    background:rgba(3, 223, 51, 0.3);
+    border-radius: 50%;
+    }
+
+  .pulsator7 span{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: .8;
+    animation: pulseAnimate7 14s ease-out infinite;
+    animation-delay: calc(2.2s * var(--i));
+   }
+   .a7{
+    --i:0;
+   }
+   .b7{
+    --i:1;
+   }
+   .c7{
+    --i:2;
+   }
+   .d7{
+    --i:3;
+   }
+   .e7{
+    --i:4;
+   }
+  
+  @keyframes pulseAnimate7 {
+    100%{
+      opacity: 0;
+      transform: scale(6);
+    }
+    
+  }

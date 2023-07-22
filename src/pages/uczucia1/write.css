@@ -1,0 +1,85 @@
+.przycisk{
+  color:rgb(48, 128, 168);
+   }
+
+   .przycisk:disabled{
+cursor :not-allowed;
+background-color: blueviolet;
+   }
+
+  .nizej{
+    margin-bottom: 16px;
+ }
+  .write {
+    padding-top: 50px;
+  }
+  
+  .writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writeForm {
+    position: relative;
+  }
+  
+  .writeFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .writeInput {
+      font-size: 23px;
+      text-align: center;
+    border: none;
+    padding: 20px;
+    width: 30vw;
+    height: 0vw;
+    color: rgb(87, 92, 90);
+   
+  }
+  
+  .writeInput:focus {
+    outline: none;
+  }
+  
+  .writeText {
+    
+    font-size: 24px;
+   
+  }
+  
+  .writeSubmit {
+    position: relative;
+    top: 20px;
+    right: 0px;
+    color: white;
+    background-color: rgb(94, 61, 154);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .etykieta{
+    position: absolute;
+    right: auto;
+    top:0%;
+    left: 3%;
+    font-size: 14px;
+  
+    color: rgb(196, 205, 201);
+  }
+  .notatki{
+  
+    font-size: 14px;
+  
+    color: rgb(196, 205, 201);
+  }
+  
+  

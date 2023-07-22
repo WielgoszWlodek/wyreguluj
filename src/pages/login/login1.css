@@ -1,0 +1,551 @@
+
+
+
+
+.box1{
+  
+    position: absolute;
+    width: calc(207vh);
+     height: calc(100vh);
+      margin-right: 0px;
+      margin-top: 520px;
+      margin-bottom: 0px;
+     
+     
+     
+      
+      background: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 253, 253, 0.7)
+      ),
+      url("../img/vangog.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+    }
+    
+    .box2{
+      height: 100px;
+      width: 100px;
+    position :fixed;
+      margin-left: 10%;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      background:green;
+      
+    }
+    
+    
+    .login {
+        height: calc(100vh - 50px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 253, 253, 0.7)
+        ),
+        url("../img/vangog.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+      background-size: cover;
+    }
+      
+      .loginTitle {
+        font-size: 50px;
+        margin-top: 90px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .loginForm {
+        margin-top: -140px;
+        display: flex;
+        flex-direction: column;
+      }
+      
+    
+      .loginForm > label {
+        margin: 10px 0;
+      }
+      
+      .loginInput {
+        padding: 10px;
+        background-color: white;
+        border: none;
+      }
+      
+      .loginButton {
+        margin-top: 20px;
+        cursor: pointer;
+        background-color: lightcoral;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      
+      .loginButton:disabled{
+        cursor: not-allowed;
+        background-color: rgb(252, 173, 173);
+      }
+      
+      .loginRegisterButton {
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: teal;
+        cursor: pointer;
+        border: none;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+      }
+    
+      *{
+        margin:0;
+        padding:0
+      }
+    
+    
+      section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 28px;
+      
+      }
+      
+    
+      
+    
+    
+    .pulsator {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin-top: 99px;
+    
+    
+    margin-left: 285px;
+    background:rgba(11, 181, 193, 0.2);
+    border-radius: 50%;
+    }
+    
+    .pulsator span{
+      position:absolute;
+      width: 100%;
+      height: 100%;
+      background: inherit;
+      border-radius: inherit;
+      opacity: .8;
+      animation: pulseAnimate 8.1s ease-out infinite;
+      animation-delay: calc(1.6s * var(--i));
+     }
+     .a{
+      --i:0;
+     }
+     .b{
+      --i:1;
+     }
+     .c{
+      --i:2;
+     }
+     .d{
+      --i:3;
+     }
+     .e{
+      --i:4;
+     }
+     
+    @keyframes pulseAnimate {
+      100%{
+        opacity: 0;
+        transform: scale(6);
+      }
+      
+    }
+    
+    
+    .pulsator1 {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      margin-left:-48px;
+      margin-top: 88px;
+      margin-bottom:130px;
+      background:  rgba(226, 16, 16, 0.3);
+      border-radius: 50%;
+      }
+      
+      .pulsator1 span{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        border-radius: inherit;
+        opacity: .8;
+        animation: pulseAnimate1 8s ease-out infinite;
+        animation-delay: calc(1.6s * var(--i));
+       }
+       .a1{
+        --i:0;
+       }
+       .b1{
+        --i:1;
+       }
+       .c1{
+        --i:2;
+       }
+       .d1{
+        --i:3;
+       }
+       .e1{
+        --i:4;
+       }
+      
+      @keyframes pulseAnimate1 {
+        100%{
+          opacity: 0;
+          transform: scale(6.6);
+        }
+        
+      }
+      
+      
+      
+    
+    
+    
+    
+      .pulsator2 {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        
+        margin-top:100px;
+        background: rgba(226, 212, 11, 0.5);
+        border-radius: 50%;
+         margin-left: 330px;
+        margin-top: 90px;
+        }
+    
+      .pulsator2 span{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+       
+        background: inherit;
+        border-radius: inherit;
+        opacity: .6;
+        animation: pulseAnimate2 21s ease-out infinite;
+        animation-delay: calc(3s * var(--i));
+       }
+       .a2{
+        --i:0;
+       }
+       .b2{
+        --i:1;
+       }
+       .c2{
+        --i:2;
+       }
+       .d2{
+        --i:3;
+       }
+       .e2{
+        --i:4;
+       }
+       .f2{
+        --i:3;
+       }
+       .g2{
+        --i:4;
+       }
+      
+      @keyframes pulseAnimate2 {
+        100%{
+          opacity: 0;
+          transform: scale(20);
+        }
+        
+      }
+      
+      .pulsator3 {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin-left:20px;
+        margin-top: 23px;
+        margin-bottom:130px;
+        background: rgba(139, 10, 190, 0.3);
+        border-radius: 50%;
+        }
+    
+      .pulsator3 span{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        border-radius: inherit;
+        opacity: .8;
+        animation: pulseAnimate3 10s ease-out infinite;
+        animation-delay: calc(2s * var(--i));
+       }
+       .a3{
+        --i:0;
+       }
+       .b3{
+        --i:1;
+       }
+       .c3{
+        --i:2;
+       }
+       .d3{
+        --i:3;
+       }
+       .e3{
+        --i:4;
+       }
+      
+      @keyframes pulseAnimate3 {
+        100%{
+          opacity: 0;
+          transform: scale(8);
+        }
+        
+      }
+    
+    
+    
+      .pulsator4 {
+        position: relative;
+        width: 15px;
+        height: 15px;
+        margin-left:25px;
+        margin-top:52px;
+        margin-bottom:130px;
+        background: rgba(86, 95, 104, 0.3);
+        border-radius: 50%;
+        }
+    
+      .pulsator4 span{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        border-radius: inherit;
+        opacity: .8;
+        animation: pulseAnimate4 10s ease-out infinite;
+        animation-delay: calc(1s * var(--i));
+       }
+       .a4{
+        --i:0;
+       }
+       .b4{
+        --i:1;
+       }
+       .c4{
+        --i:2;
+       }
+       .d3{
+        --i:3;
+       }
+       .e4{
+        --i:4;
+       }
+      
+      @keyframes pulseAnimate4 {
+        100%{
+          opacity: 0;
+          transform: scale(5);
+        }
+        
+      }
+      .pulsator5 {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        margin-left:-420px;
+        margin-bottom:118px;
+        background:rgba(21, 191, 69, 0.3);
+        border-radius: 50%;
+        }
+    
+      .pulsator5 span{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        border-radius: inherit;
+        opacity: .8;
+        animation: pulseAnimate5 10s ease-out infinite;
+        animation-delay: calc(2s * var(--i));
+       }
+       .a5{
+        --i:0;
+       }
+       .b5{
+        --i:1;
+       }
+       .c5{
+        --i:2;
+       }
+       .d5{
+        --i:3;
+       }
+       .e5{
+        --i:4;
+       }
+      
+      @keyframes pulseAnimate5 {
+        100%{
+          opacity: 0;
+          transform: scale(6);
+        }
+        
+      }
+      .pulsator6 {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin-left:-125px;
+        margin-top: -90px;
+    
+        background: rgba(36, 14, 207, 0.3);
+        border-radius: 50%;
+        }
+    
+      .pulsator6 span{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        border-radius: inherit;
+        opacity: .8;
+        animation: pulseAnimate6 8s ease-out infinite;
+        animation-delay: calc(2s * var(--i));
+       }
+       .a6{
+        --i:0;
+       }
+       .b6{
+        --i:1;
+       }
+       .c6{
+        --i:2;
+       }
+       .d6{
+        --i:3;
+       }
+      
+      @keyframes pulseAnimate6 {
+        100%{
+          opacity: 0;
+          transform: scale(8);
+        }
+        
+      }
+      
+      
+      .pulsator7 {
+        position: relative;
+        width: 15px;
+        height: 15px;
+        margin-left:100px;
+        margin-top:80px;
+        background:rgba(3, 223, 51, 0.3);
+        border-radius: 50%;
+        }
+    
+      .pulsator7 span{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        border-radius: inherit;
+        opacity: .8;
+        animation: pulseAnimate7 14s ease-out infinite;
+        animation-delay: calc(2.2s * var(--i));
+       }
+       .a7{
+        --i:0;
+       }
+       .b7{
+        --i:1;
+       }
+       .c7{
+        --i:2;
+       }
+       .d7{
+        --i:3;
+       }
+       .e7{
+        --i:4;
+       }
+      
+      @keyframes pulseAnimate7 {
+        100%{
+          opacity: 0;
+          transform: scale(6);
+        }
+        
+      }
+    
+    
+      .pulsator8 {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        margin-left:820px;
+        margin-top:20px;
+        background:rgba(247, 95, 8, 0.3);
+        border-radius: 50%;
+        }
+    
+      .pulsator8 span{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        border-radius: inherit;
+        opacity: .8;
+        animation: pulseAnimate8 14s ease-out infinite;
+        animation-delay: calc(2.2s * var(--i));
+       }
+       .a8{
+        --i:0;
+       }
+       .b8{
+        --i:1;
+       }
+       .c8{
+        --i:2;
+       }
+       .d8{
+        --i:3;
+       }
+       .e8{
+        --i:4;
+       }
+      
+      @keyframes pulseAnimate8 {
+        100%{
+          opacity: 0;
+          transform: scale(5);
+        }
+        
+      }
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    

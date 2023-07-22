@@ -1,0 +1,161 @@
+.przycisk{
+  color:rgb(48, 128, 168);
+   }
+
+   .przycisk:disabled{
+cursor :not-allowed;
+background-color: blueviolet;
+   }
+
+  .nizej{
+    margin-bottom: 16px;
+ }
+  .write {
+    padding-top: 50px;
+  }
+  
+  .writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writeForm {
+    position: relative;
+  }
+  
+  .writeFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+.writeInput2 {
+  font-size: 16px;
+  text-align: center;
+border: none;
+padding: 10px;
+width: 30vw;
+height: 0vw;
+color: rgb(129, 136, 134);
+
+}
+
+
+  .writeInput1 {
+    font-size: 20px;
+    text-align: center;
+  border: none;
+  padding: 13px;
+  width: 30vw;
+  height: 0vw;
+  color: rgb(99, 107, 106);
+ 
+}
+
+
+.writeInput3 {
+  font-size:25px;
+  text-align: center;
+border: none;
+padding: 17px;
+width: 30vw;
+height: 0vw;
+color: rgb(78, 82, 78);
+
+}
+
+  .writeInput:focus {
+    outline: none;
+  }
+  
+  .writeText {
+    
+    font-size: 24px;
+   
+  }
+  
+  .writeSubmit {
+    position: relative;
+    top: 20px;
+    right: 0px;
+    color: white;
+    background-color: rgb(94, 61, 154);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .etykieta{
+    position: absolute;
+    right: auto;
+    top:0%;
+    left: 3%;
+    font-size: 14px;
+  
+    color: rgb(196, 205, 201);
+  }
+  .notatki{
+  
+    font-size: 14px;
+  
+    color: rgb(196, 205, 201);
+  }
+  
+  
+  .button-562 {
+    background-color:  rgba(21, 191, 69, 0.9);
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #100f0f;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(1deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom:2px;
+  }
+  
+  .button-562:focus {
+    outline: 0;
+  }
+  
+  .button-562:after {
+    content: '';
+    position: absolute;
+    border: 0px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+  
+  .button-562:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-562 {
+      padding: .75rem 3rem;
+      font-size: 1.25rem;
+    }
+  }
+  

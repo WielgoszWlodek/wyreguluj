@@ -1,0 +1,30 @@
+export default [
+      {
+        value:1,
+        label:"Nie wiem"
+      },
+    {
+        value:2,
+        label:"Pogoda"
+      },
+      {
+        value:3,
+        label:"Praca"
+      },
+      {
+        value:4,
+        label:"Relacje"
+      },
+      {
+        value:5,
+        label:"Rodzina"
+      },
+      {
+        value:4,
+        label:"Choroba"
+      },
+      {
+        value:5,
+        label:"Sen"
+      },
+  ];
