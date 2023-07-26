@@ -33,7 +33,7 @@ const SignedupForm = ({ submitForm }) => {
       event.preventDefault();
     
       try {
-          const res = await axios.post("/auth/register", {
+          const res = await axios.post("https://regulator.onrender.com/auth/register", {
               ...values
           });
           console.log(res)
